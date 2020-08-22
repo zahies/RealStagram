@@ -130,8 +130,7 @@ public class MainActivity extends AppCompatActivity {
         String connectionURL = null;
         try {
             Class.forName("net.sourceforge.jtds.jdbc.Driver");
-            connectionURL = "jdbc:jtds:sqlserver://realstagram.database.windows.net:1433;DatabaseName=realStagramDB;user=zahi@realstagram;password=semizK93;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
-            //connection = DriverManager.getConnection(connectionURL,"zahi","semizK93");
+            connectionURL = "jdbc:jtds:sqlserver://realstagram.database.windows.net:1433;DatabaseName=realStagramDB;user=zahi@realstagram;password=;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
             connection = DriverManager.getConnection(connectionURL);
 
         } catch (ClassNotFoundException | SQLException e) {
