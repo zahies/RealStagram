@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     Connection con;
 
+
     private LoggedInUser loggedInUser;
     private String username;
     private CircleImageView myStory;
